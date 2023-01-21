@@ -84,9 +84,9 @@ public class Pizza
        if(!isBillGenerated)
        {
            if(isExtraCheeseAdded)
-              this.bill += "Extra Cheese Added: " +this.cheese+"\n";
+              this.bill += "Extra Cheese Added: "+this.cheese+"\n";
            if(isExtraToppingsAdded)
-               this.bill += "Extra Toppings Added: " +this.toppings+"\n";
+               this.bill += "Extra Toppings Added: "+this.toppings+"\n";
            if(isTakeAwayAdded)
                this.bill += "Paperbag Added: " +"20"+"\n";
 
